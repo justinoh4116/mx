@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.25)  28 FEB 2023 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.25)  28 FEB 2023 12:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,23 +513,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [9] (./main.aux)
+) [9] [10] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EBAC632FC74A0D2128E44B514C74731E;571.
  ) 
 Here is how much of TeX's memory you used:
- 15173 strings out of 478238
- 296245 string characters out of 5850456
- 615221 words of memory out of 5000000
+ 15174 strings out of 478238
+ 296252 string characters out of 5850456
+ 614221 words of memory out of 5000000
  33209 multiletter control sequences out of 15000+600000
  475898 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,18n,79p,1952b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (11 pages, 23074347 bytes).
+Output written on main.pdf (12 pages, 23074764 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
