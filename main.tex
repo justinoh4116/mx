@@ -21,9 +21,11 @@
 \graphicspath{ {./images} }
 \usepackage[colorlinks=false, allcolors=blue]{hyperref}
 
-\title{\Huge{Chemistry Honors \\ MX Lab Analysis}}
-\author{\huge{Oh, Justin} \and \huge{Ye, Nathan}}
-\date{\LARGE{\today}}
+\begin{singlespace}
+    \title{\Huge{Chemistry Honors \\ MX Lab Analysis}}
+    \author{\huge{Oh, Justin} \and \huge{Ye, Nathan}}
+    \date{\LARGE{\today}}
+\end{singlespace}
 
 
 \begin{document}
@@ -32,7 +34,6 @@
 % \tableofcontents
 
 \begin{abstract}
-
 In this lab, we are given two mystery elements labeled M and X and tasked to figure out the identity of the two through various tests. Different elements have unique properties that can tell us the identity of them. We can exploit these different properties through various tests that can clearly show the identity of some mystery element. Through this lab, we hope to gain and practice the knowledge we have learned. We will also be able to practice our lab skills and understanding of safety. Being able to tell similar-looking materials apart is also crucial, one wrong chemical used will ruin an experiment in the best case and expose people to deadly chemicals. Before we started running tests, we hypothesized that M is zinc and X is iodine though visual inspection and logical deduction. We factored in cost, safety, and compatibility just to name a few. By use of visual inspection and a conductivity test, we were able to determine that M was a metal. There were many methods we used to determine the identity of M: flame test, reactivity test, melting point. To determine the identity of X, we used visual inspection. Our results showed that M had a blueish white flame, a in the middle reactivity, and a very similar melting point to zinc. When heated up X started releasing purple vapors. From our testing, we can confidently state that M is zinc and X is iodine and our two guesses were both correct. 
 
 %\chemfig{I-Zn-I}
@@ -205,20 +206,18 @@ We performed a reactivity test on \textbf{M} exactly like how we did in our acti
     \hline
     Measurement & Value \\
     \hline
-    Mass of M reactant (Trial 1) &  \\
-    Mass of X reactant (Trial 1) &  \\
-    Volume of 'water' (Trial 1) &  \\
-    Mass of evaporation dish (Trial 1) &  \\
-    Mass of evaporation dish and product (Trial 1) &  \\
-    Mass of M reactant (Trial 2) &  \\
-    Mass of X reactant (Trial 2) &  \\
-    Volume of 'water' (Trial 2) &  \\
-    Mass of evaporation dish (Trial 2) &  \\
-    Mass of evaporation dish and product (Trial 2) &  \\
-
-        
+    Mass of M reactant (Trial 1) &  \qty{0.512}{\gram}\\
+    Mass of X reactant (Trial 1) & \qty{0.494}{\gram} \\
+    Volume of 'water' (Trial 1) & \qty{8.60}{\milli\liter} \\
+    Mass of evaporation dish (Trial 1) & \qty{55.380}{\gram} \\
+    Mass of evaporation dish and product (Trial 1) & \qty{55.903}{\gram} \\
+    Mass of M reactant (Trial 2) & \qty{0.219}{\gram} \\
+    Mass of X reactant (Trial 2) & \qty{0.194}{\gram} \\
+    Volume of 'water' (Trial 2) & \qty{8.72}{\milli\liter} \\
+    Mass of evaporation dish (Trial 2) & \qty{44.904}{\gram} \\
+    Mass of evaporation dish and product (Trial 2) & \qty{45.113}{\gram} \\
+    \hline
     \end{tabular}
-
 \section{Calculations}
 %stoichiometry for MX first trial
 % theoretical yield
@@ -227,8 +226,14 @@ We performed a reactivity test on \textbf{M} exactly like how we did in our acti
     \ce{Zn + I2 -> ZnI2} \\[2ex]
     \qty{0.512}{\gram\of{Zn}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{65.380}{\gram\of{Zn}}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}\times\frac{\qty{319.18}{\gram\of{\ce{ZnI2}}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}=\qty{2.50}{\gram\of{\ce{ZnI2}}} \\[2ex]
     \qty{0.494}{\gram\of{I}}\times\frac{\qty{1}{\mol\of{I}}}{\qty{126.90}{\gram\of{I}}}\times\frac{\qty{1}{\mol\of{\ce{ZnI2}}}}{\qty{2}{\mol\of{I}}}\times\frac{\qty{319.18}{\gram\of{\ce{ZnI2}}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}=\boxed{\qty{0.621}{\gram\of{\ce{ZnI2}}}} \\[2ex]
+    \begin{split}
+    m_{\text{product}} &= m_{\text{total}} - m_{\text{dish}} \\
+                       &= \qty{55.904}{\gram} - \qty{55.380}{\gram} \\
+                       &= \qty{0.523}{\gram} \text{ actual yield} \\
+    \end{split}
     \frac{\qty{0.523}{\gram}\mathrm{\ actual\ yield}}{\qty{0.621}{\gram}\mathrm{\ theoretical\ yield}}=\boxed{84.7\unit{\percent}\mathrm{\ yield}}
 \end{gather*}
+
 
 \begin{gather*}
     \qty{0.494}{\gram\of{I}}\times\frac{\qty{1}{\mol\of{I}}}{\qty{126.90}{\gram\of{I}}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{2}{\mol\of{I}}}\times\frac{\qty{65.380}{\gram\of{Zn}}}{\qty{1}{\mol\of{Zn}}}=\qty{0.127}{\gram\of{Zn}}\mathrm{\ consumed} \\[2ex]
@@ -266,11 +271,11 @@ We performed a reactivity test on \textbf{M} exactly like how we did in our acti
 \section{Analysis}
 
 % talk abt zinc oxide layer
-The evidence we have to support the claim that the identity of the unknown element M is zinc falls into three categories. The first of these categories are the general properties of M. We first observed that M was made of small pieces cut from a larger sheet of metal, and was untarnished, but not extremely shiny. We next observed that M was very conductive, with only \qty{0.612}{\ohm} of resistance across 3mm of its surface. Furthermore, we found that M was malleable, and was able to be formed slightly with our hands. M's appearance and properties of conductivity and malleability are all properties of metals. Since M has many of the properties intrinsic to metals, we conclude that M is a metallic element. 
+The evidence we have to support the claim that the identity of the unknown element M is zinc falls into three categories. The first of these categories are the general properties of M. We first observed that M was made of small pieces cut from a larger sheet of metal, and was untarnished, but not extremely shiny. We next observed that M was very conductive, with only \qty{0.612}{\ohm} of resistance across \qty{3}{\milli\meter} of its surface. Furthermore, we found that M was malleable, and was able to be formed slightly with our hands. M's appearance and properties of conductivity and malleability are all properties of metals. Since M has many of the properties intrinsic to metals, we conclude that M is a metallic element. 
 
 The next piece of evidence that supports M's identity as zinc is its reactivity. By performing reactivity tests against other metals, we can determine M's reactivity relative to other known metals. We found that M was more reactive than silver, copper, iron, tin, and hydrogen. We found that it was unable to replace calcium, potassium, magnesium, aluminium, and zinc. This exactly matches where zinc lies on the activity series, above the elements that M was able to replace, and below those it could not. However, since we did not have a chromium nitrate solution, and chromium is another metal that would match our reactivity results, we are unable to confidently verify M's identity as zinc from the activity series alone. However, in our next test, we are able to eliminate chromium as possibility for M's identity.
 
-The final piece of evidence that allows us to confidently state M's identity as zinc is a flame color test. By reacting M and X, we were able to produce an ionic compound with M as the cation. \footnote{Verification of this fact is provided in the analysis of X's identity}When a metal ion is heated in a flame test, its electrons rise and fall between orbitial energy levels and emit a characteristic spectrum of light. Since all elements have unique energy levels, they have unique emission spectra, meaning the emitted spectrum of light from a flame test can be used to identify the element. Following our synthesis of MX with M as a cation, we dissolved the powder in methanol, and ignited it. We observed a pale, light blue flame. As a control, we also ignited pure methanol and observed a colorless flame. The two possibilities for M's identity that we obtained from our reactivity testing, zinc and chromium, have pale blue and silver white flames respectively. \footnote{insert citation} Since the observed flame color of our unknown is very different from that of chromium's, we are able to eliminate chromium as a possibility for our unknown's identity. However, there are a group of elements that have a flame color similar to our unknown. These include: arsenic, lead, tin, and zinc. However, using our initial observations as well as the reactivity of M, we are able to eliminate all of these possibilities, save for zinc. Therefore, by using evidence from all of our testing on M, we are able to confidently state the identity of M as zinc.
+The final piece of evidence that allows us to confidently state M's identity as zinc is a flame color test. By reacting M and X, we were able to produce an ionic compound with M as the cation.\footnote{Verification of this fact is provided in the analysis of X's identity}When a metal ion is heated in a flame test, its electrons rise and fall between orbitial energy levels and emit a characteristic spectrum of light. Since all elements have unique energy levels, they have unique emission spectra, meaning the emitted spectrum of light from a flame test can be used to identify the element. Following our synthesis of MX with M as a cation, we dissolved the powder in methanol, and ignited it. We observed a pale, light blue flame. As a control, we also ignited pure methanol and observed a colorless flame. The two possibilities for M's identity that we obtained from our reactivity testing, zinc and chromium, have pale blue and silver white flames respectively.\footnote{insert citation} Since the observed flame color of our unknown is very different from that of chromium's, we are able to eliminate chromium as a possibility for our unknown's identity. However, there are a group of elements that have a flame color similar to our unknown. These include: arsenic, lead, tin, and zinc. However, using our initial observations as well as the reactivity of M, we are able to eliminate all of these possibilities, save for zinc. Therefore, by using evidence from all of our testing on M, we are able to confidently state the identity of M as zinc.
 
 \bigskip
 Similarly to M, we began to identify X by recording its general properties. We observed that iodine was black in color. 

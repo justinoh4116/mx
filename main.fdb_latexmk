@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1677612066 "main.aux" "main.bbl" "main" 1677612101
+["bibtex main"] 1677614279 "main.aux" "main.bbl" "main" 1677614322
   "/usr/share/texmf-dist/bibtex/bst/base/alpha.bst" 1650183167 23907 a5f93555796fb564b924339521f10a7c ""
-  "main.aux" 1677612101 2809 f12b5677620eb7484b788a9f85f504a1 "pdflatex"
+  "main.aux" 1677614322 2809 83afe62514f71799befd49ac1ae73536 "pdflatex"
   "sample.bib" 1677564416 244 0810be99547e6f3295f454437e22fee4 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1677612093 "main.tex" "main.pdf" "main" 1677612101
+["pdflatex"] 1677614314 "main.tex" "main.pdf" "main" 1677614322
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1650183167 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1650183167 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -121,11 +121,11 @@
   "images/unknown_M.jpg" 1677564416 694414 56135f6b4e9269e5030532e7f00cfb29 ""
   "images/unknown_X.jpg" 1677564416 323366 df75b42caf5249da86b5cc0104b36637 ""
   "images/zinc_sheet.jpg" 1677564416 38981 81e271c6bfc2e7e99018d0484713b035 ""
-  "main.aux" 1677612101 2809 f12b5677620eb7484b788a9f85f504a1 "pdflatex"
-  "main.bbl" 1677612066 49 0eba253fc001332e731e8aba3f23127b "bibtex main"
-  "main.out" 1677612101 571 ebac632fc74a0d2128e44b514c74731e "pdflatex"
-  "main.tex" 1677612092 22958 5e3083408f0b288d50459837b086b76e ""
-  "main.toc" 1677612101 428 e4c809711a7dd38d4f764b0aefd47d3a "pdflatex"
+  "main.aux" 1677614322 2809 83afe62514f71799befd49ac1ae73536 "pdflatex"
+  "main.bbl" 1677614279 49 0eba253fc001332e731e8aba3f23127b "bibtex main"
+  "main.out" 1677614322 571 ebac632fc74a0d2128e44b514c74731e "pdflatex"
+  "main.tex" 1677614312 23458 bb4d2631e5a7d2cf1d56adfa6f855309 ""
+  "main.toc" 1677614322 428 82b6d94da6bd391c90faf25fedcec3f1 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

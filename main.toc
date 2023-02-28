@@ -3,5 +3,5 @@
 \contentsline {section}{\numberline {2}Materials}{4}{section.2}%
 \contentsline {section}{\numberline {3}Procedures}{4}{section.3}%
 \contentsline {section}{\numberline {4}Gathered Data}{6}{section.4}%
-\contentsline {section}{\numberline {5}Calculations}{6}{section.5}%
-\contentsline {section}{\numberline {6}Analysis}{7}{section.6}%
+\contentsline {section}{\numberline {5}Calculations}{7}{section.5}%
+\contentsline {section}{\numberline {6}Analysis}{8}{section.6}%
