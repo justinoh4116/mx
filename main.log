@@ -1,341 +1,323 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.2.27)  27 FEB 2023 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.25)  27 FEB 2023 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2020-02-02> patch level 2
-L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
-) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+\bibindent=\dimen138
+) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-02-14 L3 programming layer (loader) 
- (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
-\l__pdf_internal_box=\box45
-)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count176
-\g__xparse_grabber_int=\count177
-\l__xparse_m_args_int=\count178
-\l__xparse_v_nesting_int=\count179
-)
-Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
- (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks14
-\ex@=\dimen135
-)) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen136
-\ar@mcellbox=\box46
-\extrarowheight=\dimen137
-\NC@list=\toks15
-\extratabsurround=\skip49
-\backup@length=\skip50
-\ar@cellbox=\box47
-) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
-)
-\l__siunitx_tmp_box=\box48
-\l__siunitx_tmp_dim=\dimen138
-\l__siunitx_tmp_int=\count180
-\l__siunitx_number_mantissa_length_int=\count181
-\l__siunitx_number_uncert_length_int=\count182
-\l__siunitx_round_int=\count183
-\l__siunitx_process_decimal_int=\count184
-\l__siunitx_process_uncertainty_int=\count185
-\l__siunitx_process_fixed_int=\count186
-\l__siunitx_process_integer_min_int=\count187
-\l__siunitx_process_precision_int=\count188
-\l__siunitx_group_min_int=\count189
-\l__siunitx_angle_marker_box=\box49
-\l__siunitx_angle_unit_box=\box50
-\l__siunitx_angle_marker_dim=\dimen139
-\l__siunitx_angle_unit_dim=\dimen140
-\l__siunitx_unit_int=\count190
-\l__siunitx_unit_denominator_int=\count191
-\l__siunitx_unit_numerator_int=\count192
-\l__siunitx_unit_prefix_int=\count193
-\l__siunitx_unit_prefix_base_int=\count194
-\l__siunitx_unit_prefix_gram_int=\count195
-\l__siunitx_number_product_int=\count196
-\c__siunitx_one_fill_skip=\skip51
-\l__siunitx_table_unit_align_skip=\skip52
-\l__siunitx_table_exponent_dim=\dimen141
-\l__siunitx_table_integer_dim=\dimen142
-\l__siunitx_table_mantissa_dim=\dimen143
-\l__siunitx_table_marker_dim=\dimen144
-\l__siunitx_table_result_dim=\dimen145
-\l__siunitx_table_uncert_dim=\dimen146
-\l__siunitx_table_fill_pre_dim=\dimen147
-\l__siunitx_table_fill_post_dim=\dimen148
-\l__siunitx_table_fill_mid_dim=\dimen149
-\l__siunitx_table_pre_box=\box51
-\l__siunitx_table_post_box=\box52
-\l__siunitx_table_mantissa_box=\box53
-\l__siunitx_table_result_box=\box54
-\l__siunitx_table_number_align_skip=\skip53
-\l__siunitx_table_text_align_skip=\skip54
- (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
-Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
-))) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
-Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
- (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count197
-\calc@Bcount=\count198
-\calc@Adimen=\dimen150
-\calc@Bdimen=\dimen151
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count199
-\calc@Cskip=\skip57
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip58
-
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen152
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count266
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count267
-\leftroot@=\count268
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count269
-\DOTSCASE@=\count270
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box55
-\strutbox@=\box56
-\big@size=\dimen153
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count271
-\c@MaxMatrixCols=\count272
-\dotsspace@=\muskip16
-\c@parentequation=\count273
-\dspbrk@lvl=\count274
-\tag@help=\toks17
-\row@=\count275
-\column@=\count276
-\maxfields@=\count277
-\andhelp@=\toks18
-\eqnshift@=\dimen154
-\alignsep@=\dimen155
-\tagshift@=\dimen156
-\tagwidth@=\dimen157
-\totwidth@=\dimen158
-\lineht@=\dimen159
-\@envbody=\toks19
-\multlinegap=\skip59
-\multlinetaggap=\skip60
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
-) (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
-Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count278
-\g__chemgreek_tmpa_int=\count279
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\l__mhchem_ce_distanceFromLastComma_int=\count280
-\__mhchem_arrow_extPgfLength_skip=\skip61
-\mhchem@minispace@tmp=\skip62
-\mhchem@minibackspace@tmp=\skip63
-\mhchem@bondwidth=\skip64
-\mhchem@bondheight=\skip65
-\mhchem@smallbondwidth@tmpA=\skip66
-\mhchem@smallbondwidth@tmpB=\skip67
-\mhchem@smallbondwidth=\skip68
-\mhchem@bondtmp@minussidebearingleft=\skip69
-\mhchem@bondtmp@minussidebearingright=\skip70
-\l__mhchem_option_version_int=\count281
-\mhchem@option@minusmathsidebearingleft=\dimen160
-\mhchem@option@minusmathsidebearingright=\dimen161
-\mhchem@option@minustextsidebearingleft=\dimen162
-\mhchem@option@minustextsidebearingright=\dimen163
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/02/14 3.40 The Babel package
- (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2020/02/14 3.40 Babel switching mechanism
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
- (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/02/14 3.40 Babel common definitions
-\babel@savecnt=\count282
-\U@D=\dimen164
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count283
-)
-Package babel Info: \l@canadian = using hyphenrules for english
-(babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language41) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language41) on input line 108.
-)) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-))
-\Gm@cnth=\count284
-\Gm@cntv=\count285
-\c@Gm@tempcnt=\count286
-\Gm@bindingoffset=\dimen165
-\Gm@wd@mp=\dimen166
-\Gm@odd@mp=\dimen167
-\Gm@even@mp=\dimen168
-\Gm@layoutwidth=\dimen169
-\Gm@layoutheight=\dimen170
-\Gm@layouthoffset=\dimen171
-\Gm@layoutvoffset=\dimen172
-\Gm@dimlist=\toks21
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen173
-\Gin@req@width=\dimen174
-) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
- (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-04-04 v3.0.50 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen139
+\l__siunitx_angle_marker_box=\box50
+\l__siunitx_angle_unit_box=\box51
+\l__siunitx_compound_count_int=\count193
+ (/usr/share/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count194
+) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+))
+\l__siunitx_number_exponent_fixed_int=\count195
+\l__siunitx_number_min_decimal_int=\count196
+\l__siunitx_number_min_integer_int=\count197
+\l__siunitx_number_round_precision_int=\count198
+\l__siunitx_number_group_minimum_int=\count199
+ (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen140
+))
+\l__siunitx_table_tmp_box=\box52
+\l__siunitx_table_tmp_dim=\dimen141
+\l__siunitx_table_column_width_dim=\dimen142
+\l__siunitx_table_integer_box=\box53
+\l__siunitx_table_decimal_box=\box54
+\l__siunitx_table_before_box=\box55
+\l__siunitx_table_after_box=\box56
+\l__siunitx_table_before_dim=\dimen143
+\l__siunitx_table_carry_dim=\dimen144
+\l__siunitx_unit_tmp_int=\count266
+\l__siunitx_unit_position_int=\count267
+\l__siunitx_unit_total_int=\count268
+ (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-04-10 L3 programming layer (loader) 
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count269
+\l__pdf_internal_box=\box57
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box58
+\extrarowheight=\dimen146
+\NC@list=\toks17
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box59
+)) (/usr/share/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
+ (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count270
+\calc@Bcount=\count271
+\calc@Adimen=\dimen147
+\calc@Bdimen=\dimen148
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count272
+\calc@Cskip=\skip53
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen149
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\@linkdim=\dimen175
-\Hy@linkcounter=\count287
-\Hy@pagecounter=\count288
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen150
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count278
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip16
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks18
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks19
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks20
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (/usr/share/texmf-dist/tex/latex/chemgreek/chemgreek.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count285
+\g__chemgreek_tmpa_int=\count286
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\l__mhchem_ce_distanceFromLastComma_int=\count287
+\__mhchem_arrow_extPgfLength_skip=\skip57
+\mhchem@minispace@tmp=\skip58
+\mhchem@minibackspace@tmp=\skip59
+\mhchem@bondwidth=\skip60
+\mhchem@bondheight=\skip61
+\mhchem@smallbondwidth@tmpA=\skip62
+\mhchem@smallbondwidth@tmpB=\skip63
+\mhchem@smallbondwidth=\skip64
+\mhchem@bondtmp@minussidebearingleft=\skip65
+\mhchem@bondtmp@minussidebearingright=\skip66
+\l__mhchem_option_version_int=\count288
+\mhchem@option@minusmathsidebearingleft=\dimen157
+\mhchem@option@minusmathsidebearingright=\dimen158
+\mhchem@option@minustextsidebearingleft=\dimen159
+\mhchem@option@minustextsidebearingright=\dimen160
+) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count289
+\U@D=\dimen161
+\l@unhyphenated=\language87
+ (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count290
+ (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+)) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count291
+\Gm@cntv=\count292
+\c@Gm@tempcnt=\count293
+\Gm@bindingoffset=\dimen162
+\Gm@wd@mp=\dimen163
+\Gm@odd@mp=\dimen164
+\Gm@even@mp=\dimen165
+\Gm@layoutwidth=\dimen166
+\Gm@layoutheight=\dimen167
+\Gm@layouthoffset=\dimen168
+\Gm@layoutvoffset=\dimen169
+\Gm@dimlist=\toks23
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen170
+\Gin@req@width=\dimen171
+) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+ (/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen172
+\Hy@linkcounter=\count294
+\Hy@pagecounter=\count295
+ (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count289
-\pdfmajorversion=\count290
-Package hyperref Info: Option `colorlinks' set `false' on input line 4421.
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+\Hy@SavedSpaceFactor=\count296
+ (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count291
- (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count297
+ (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen176
-
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen173
+ (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count292
-\Field@Width=\dimen177
-\Fld@charsize=\dimen178
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
- (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+\Fld@menulength=\count298
+\Field@Width=\dimen174
+\Fld@charsize=\dimen175
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+ (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count293
-\c@Item=\count294
-\c@Hfootnote=\count295
+\Hy@abspage=\count299
+\c@Item=\count300
+\c@Hfootnote=\count301
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
- (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
+ (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+ (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
 )
-\Fld@listcount=\count296
-\c@bookmark@seq@number=\count297
- (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+\Fld@listcount=\count302
+\c@bookmark@seq@number=\count303
+ (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip71
-) (./main.aux)
+\Hy@SectionHShift=\skip67
+)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -354,31 +336,38 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
- (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
-Dictionary: translator-basic-dictionary, Language: English 
-) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+ (/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
+Package color Info: Driver file: pdftex.def on input line 149.
+) (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 29.
 
 Package chemgreek Info: Activating mapping `default' on line 29.
 
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
-\scratchdimen=\dimen179
-\scratchbox=\box57
-\nofMPsegments=\count299
-\nofMParguments=\count300
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count301
-\MPscratchDim=\dimen180
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
-\everyMPtoPDFconversion=\toks23
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count304
+\scratchdimen=\dimen176
+\scratchbox=\box62
+\nofMPsegments=\count305
+\nofMParguments=\count306
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen177
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
@@ -415,16 +404,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring OFF on input line 29.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
- (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count304
+\c@section@level=\count310
 )
 LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
@@ -435,7 +423,8 @@ LaTeX Info: Redefining \nameref on input line 29.
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.42 \end{abstract}
@@ -443,568 +432,201 @@ l.42 \end{abstract}
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.46 \newpage
               [1]
+<./images/unknown_M.jpg, id=50, 1064.47687pt x 943.27406pt>
+File: ./images/unknown_M.jpg Graphic file (type jpg)
+<use ./images/unknown_M.jpg>
+Package pdftex.def Info: ./images/unknown_M.jpg  used on input line 52.
+(pdftex.def)             Requested size: 96.31854pt x 85.35826pt.
+<./images/aluminium_sheet.jpg, id=51, 147.4308pt x 113.9457pt>
+File: ./images/aluminium_sheet.jpg Graphic file (type jpg)
+<use ./images/aluminium_sheet.jpg>
+Package pdftex.def Info: ./images/aluminium_sheet.jpg  used on input line 53.
+(pdftex.def)             Requested size: 110.44234pt x 85.35826pt.
+<./images/zinc_sheet.jpg, id=52, 602.25pt x 602.25pt>
+File: ./images/zinc_sheet.jpg Graphic file (type jpg)
+<use ./images/zinc_sheet.jpg>
+Package pdftex.def Info: ./images/zinc_sheet.jpg  used on input line 54.
+(pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
+<./images/unknown_X.jpg, id=53, 518.6878pt x 440.39531pt>
+File: ./images/unknown_X.jpg Graphic file (type jpg)
+<use ./images/unknown_X.jpg>
+Package pdftex.def Info: ./images/unknown_X.jpg  used on input line 62.
+(pdftex.def)             Requested size: 100.53033pt x 85.35826pt.
+<./images/boron.jpg, id=54, 663.98062pt x 566.36081pt>
+File: ./images/boron.jpg Graphic file (type jpg)
+<use ./images/boron.jpg>
+Package pdftex.def Info: ./images/boron.jpg  used on input line 63.
+(pdftex.def)             Requested size: 100.06897pt x 85.35826pt.
+<./images/graphite.jpg, id=55, 267.399pt x 259.2084pt>
+File: ./images/graphite.jpg Graphic file (type jpg)
+<use ./images/graphite.jpg>
+Package pdftex.def Info: ./images/graphite.jpg  used on input line 64.
+(pdftex.def)             Requested size: 88.05424pt x 85.35826pt.
+<./images/iodine.jpg, id=56, 3061.4375pt x 2118.91624pt>
+File: ./images/iodine.jpg Graphic file (type jpg)
+<use ./images/iodine.jpg>
+Package pdftex.def Info: ./images/iodine.jpg  used on input line 65.
+(pdftex.def)             Requested size: 123.3242pt x 85.35826pt.
+ [2 <./images/unknown_M.jpg> <./images/aluminium_sheet.jpg> <./images/zinc_sheet.jpg> <./images/unknown_X.jpg> <./images/boron.jpg> <./images/graphite.jpg> <./images/iodine.jpg>]
+./main.tex:125: Undefined control sequence.
+<argument> \mili 
+                 \liter 
+l.125  Beaker & \qty{100}{\mili\liter}
+                                       \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: File `unknown_M.jpg' not found on input line 52.
+./main.tex:125: Undefined control sequence.
+<argument> \mili 
+                 \liter 
+l.125  Beaker & \qty{100}{\mili\liter}
+                                       \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:126: Undefined control sequence.
+<argument> \mili 
+                 \liter 
+l.126  Grad. Cylinder & \qty{10}{\mili\liter}
+                                              \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:126: Undefined control sequence.
+<argument> \mili 
+                 \liter 
+l.126  Grad. Cylinder & \qty{10}{\mili\liter}
+                                              \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-./main.tex:52: Package pdftex.def Error: File `unknown_M.jpg' not found: using draft setting.
+Overfull \hbox (68.05019pt too wide) in paragraph at lines 97--154
+[]  []  [] 
+ []
 
-See the pdftex.def package documentation for explanation.
+[3]
+<./images/MX_initial.png, id=75, 2680.0125pt x 2009.5075pt>
+File: ./images/MX_initial.png Graphic file (type png)
+<use ./images/MX_initial.png>
+Package pdftex.def Info: ./images/MX_initial.png  used on input line 161.
+(pdftex.def)             Requested size: 113.807pt x 85.35826pt.
+<./images/MX_final.png, id=76, 685.05937pt x 701.62125pt>
+File: ./images/MX_final.png Graphic file (type png)
+<use ./images/MX_final.png>
+Package pdftex.def Info: ./images/MX_final.png  used on input line 169.
+(pdftex.def)             Requested size: 83.34296pt x 85.35826pt.
+ [4 <./images/MX_initial.png> <./images/MX_final.png (PNG copy)>]
+<./images/iodine_gas.png, id=85, 492.33937pt x 594.72188pt>
+File: ./images/iodine_gas.png Graphic file (type png)
+<use ./images/iodine_gas.png>
+Package pdftex.def Info: ./images/iodine_gas.png  used on input line 178.
+(pdftex.def)             Requested size: 70.66241pt x 85.35826pt.
+<./images/iodine_crystals.png, id=87, 1300.86pt x 828.09375pt>
+File: ./images/iodine_crystals.png Graphic file (type png)
+<use ./images/iodine_crystals.png>
+Package pdftex.def Info: ./images/iodine_crystals.png  used on input line 179.
+(pdftex.def)             Requested size: 134.08336pt x 85.35826pt.
+<./images/activity_series.png, id=89, 1265.72874pt x 621.32124pt>
+File: ./images/activity_series.png Graphic file (type png)
+<use ./images/activity_series.png>
+Package pdftex.def Info: ./images/activity_series.png  used on input line 193.
+(pdftex.def)             Requested size: 231.83853pt x 113.81102pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./images/iodine_gas.png> <./images/iodine_crystals.png>]
+./main.tex:222: Missing $ inserted.
+<inserted text> 
+                $
+l.222 \end{table}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./main.tex:222: Display math should end with $$.
+<to be read again> 
+                   \tex_par:D 
+l.222 \end{table}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./main.tex:222: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.222 \end{table}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./main.tex:222: Extra }, or forgotten \endgroup.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.222 \end{table}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./main.tex:222: LaTeX Error: \begin{[} on input line 204 ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 ...includegraphics[height=3cm]{unknown_M.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `aluminium_sheet.jpg' not found on input line 53.
-
-
-./main.tex:53: Package pdftex.def Error: File `aluminium_sheet.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...egraphics[height=3cm]{aluminium_sheet.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `zinc_sheet.jpg' not found on input line 54.
-
-
-./main.tex:54: Package pdftex.def Error: File `zinc_sheet.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...ncludegraphics[height=3cm]{zinc_sheet.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `unknown_X.jpg' not found on input line 62.
-
-
-./main.tex:62: Package pdftex.def Error: File `unknown_X.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ...includegraphics[height=3cm]{unknown_X.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `boron.jpg' not found on input line 63.
-
-
-./main.tex:63: Package pdftex.def Error: File `boron.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63     \includegraphics[height=3cm]{boron.jpg}
-                                                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `graphite.jpg' not found on input line 64.
-
-
-./main.tex:64: Package pdftex.def Error: File `graphite.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ...\includegraphics[height=3cm]{graphite.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `iodine.jpg' not found on input line 65.
-
-
-./main.tex:65: Package pdftex.def Error: File `iodine.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65     \includegraphics[height=3cm]{iodine.jpg}
-                                                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[2] [3]
-
-LaTeX Warning: File `MX_initial.png' not found on input line 145.
-
-
-./main.tex:145: Package pdftex.def Error: File `MX_initial.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.145 ...cludegraphics[height=3cm]{MX_initial.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `MX_final.png' not found on input line 153.
-
-
-./main.tex:153: Package pdftex.def Error: File `MX_final.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 ...includegraphics[height=3cm]{MX_final.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./main.tex:158: Undefined control sequence.
-l.158 ...ed how much we used: 0.512$\pm$0.001\unit
-                                                  {\gram\of{\textbf{M}}} and...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\gram ->\ERROR 
-               
-l.158 ... much we used: 0.512$\pm$0.001\unit{\gram
-                                                  \of{\textbf{M}}} and 0.494...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\of ->\ERROR 
-             
-l.158 ...ch we used: 0.512$\pm$0.001\unit{\gram\of
-                                                  {\textbf{M}}} and 0.494$\p...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-l.158 ...\of{\textbf{M}}} and 0.494$\pm$0.001\unit
-                                                  {\gram\of{\textbf{X}}}. We...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\gram ->\ERROR 
-               
-l.158 ...extbf{M}}} and 0.494$\pm$0.001\unit{\gram
-                                                  \of{\textbf{X}}}. We then ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\of ->\ERROR 
-             
-l.158 ...bf{M}}} and 0.494$\pm$0.001\unit{\gram\of
-                                                  {\textbf{X}}}. We then mea...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-l.158 ...{\textbf{X}}}. We then measured 8.60\unit
-                                                  {\milli\liter} of 'water' ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\milli ->\ERROR 
-                
-l.158 ...f{X}}}. We then measured 8.60\unit{\milli
-                                                  \liter} of 'water' using a...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\liter ->\ERROR 
-                
-l.158 .... We then measured 8.60\unit{\milli\liter
-                                                  } of 'water' using a 10\un...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-l.158 ...{\milli\liter} of 'water' using a 10\unit
-                                                  {\milli\liter} graduated c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\milli ->\ERROR 
-                
-l.158 ...\liter} of 'water' using a 10\unit{\milli
-                                                  \liter} graduated cylinder...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\liter ->\ERROR 
-                
-l.158 ...} of 'water' using a 10\unit{\milli\liter
-                                                  } graduated cylinder and p...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-l.158 ...ed cylinder and poured it into a 100\unit
-                                                  {\milli\liter} beaker. \te...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\milli ->\ERROR 
-                
-l.158 ...nder and poured it into a 100\unit{\milli
-                                                  \liter} beaker. \textbf{M}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\liter ->\ERROR 
-                
-l.158 ...nd poured it into a 100\unit{\milli\liter
-                                                  } beaker. \textbf{M} and \...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-l.158 ... with product to be 55.380$\pm$0.001\unit
-                                                  {\gram} and the dish by it...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\gram ->\ERROR 
-               
-l.158 ...product to be 55.380$\pm$0.001\unit{\gram
-                                                  } and the dish by itself t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-l.158 ...ish by itself to be 55.903$\pm$0.001\unit
-                                                  {\gram}. This gives us a y...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\gram ->\ERROR 
-               
-l.158 ... itself to be 55.903$\pm$0.001\unit{\gram
-                                                  }. This gives us a yield o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-l.158 ... gives us a yield of 0.523$\pm$0.001\unit
-                                                  {\gram\of{\textbf{{MX}}}}....
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\gram ->\ERROR 
-               
-l.158 ... us a yield of 0.523$\pm$0.001\unit{\gram
-                                                  \of{\textbf{{MX}}}}. We al...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:158: Undefined control sequence.
-\of ->\ERROR 
-             
-l.158 ... a yield of 0.523$\pm$0.001\unit{\gram\of
-                                                  {\textbf{{MX}}}}. We also ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[4]
-
-LaTeX Warning: File `iodine_gas.png' not found on input line 162.
-
-
-./main.tex:162: Package pdftex.def Error: File `iodine_gas.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.162 ...cludegraphics[height=3cm]{iodine_gas.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `iodine_crystals.png' not found on input line 163.
-
-
-./main.tex:163: Package pdftex.def Error: File `iodine_crystals.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 ...graphics[height=3cm]{iodine_crystals.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./main.tex:168: Undefined control sequence.
-l.168 ... of \textbf{X} and put them in a 100\unit
-                                                  {\milli\liter} beaker. We ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:168: Undefined control sequence.
-\milli ->\ERROR 
-                
-l.168 ...xtbf{X} and put them in a 100\unit{\milli
-                                                  \liter} beaker. We covered...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:168: Undefined control sequence.
-\liter ->\ERROR 
-                
-l.168 ...} and put them in a 100\unit{\milli\liter
-                                                  } beaker. We covered the b...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: File `activity_series.png' not found on input line 177.
-
-
-./main.tex:177: Package pdftex.def Error: File `activity_series.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177 ...graphics[height=4cm]{activity_series.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5]
-./main.tex:198: Undefined control sequence.
-<argument> \m@th $\displaystyle 84.7\unit 
-                                          {\percent }\mathrm {\ yield}$
-l.198 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:198: Undefined control sequence.
-\percent ->\ERROR 
-                  
-l.198 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:198: Undefined control sequence.
-<argument> \m@th $\displaystyle 84.7\unit 
-                                          {\percent }\mathrm {\ yield}$
-l.198 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:198: Undefined control sequence.
-\percent ->\ERROR 
-                  
-l.198 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[6]
-./main.tex:231: Undefined control sequence.
-<argument> \m@th $\displaystyle 85.7\unit 
-                                          {\percent }\mathrm {\ yield}$
-l.231 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:231: Undefined control sequence.
-\percent ->\ERROR 
-                  
-l.231 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:231: Undefined control sequence.
-<argument> \m@th $\displaystyle 85.7\unit 
-                                          {\percent }\mathrm {\ yield}$
-l.231 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:231: Undefined control sequence.
-\percent ->\ERROR 
-                  
-l.231 \end{gather*}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7] [8] (./main.bbl
+l.222 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[6 <./images/activity_series.png>] [7] (./main.bbl [8]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 260.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 260.
+) [9] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A4DA02CDF40A808F21DDA5CCAA84D64;272.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
+(rerunfilecheck)             Checksum: EBAC632FC74A0D2128E44B514C74731E;571.
  ) 
 Here is how much of TeX's memory you used:
- 10792 strings out of 481239
- 206081 string characters out of 5920377
- 497447 words of memory out of 5000000
- 25818 multiletter control sequences out of 15000+600000
- 541798 words of font info for 59 fonts, out of 8000000 for 9000
+ 15174 strings out of 478238
+ 296249 string characters out of 5850456
+ 614221 words of memory out of 5000000
+ 33210 multiletter control sequences out of 15000+600000
+ 475898 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,21n,64p,1929b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (11 pages, 208691 bytes).
+ 74i,18n,79p,1952b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (11 pages, 23072986 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+ 197 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  26 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
