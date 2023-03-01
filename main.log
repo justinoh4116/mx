@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.25)  27 FEB 2023 23:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.25)  28 FEB 2023 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -320,24 +320,24 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
  (/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -347,9 +347,9 @@ Package color Info: Driver file: pdftex.def on input line 149.
 ) (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 29.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 31.
 
-Package chemgreek Info: Activating mapping `default' on line 29.
+Package chemgreek Info: Activating mapping `default' on line 31.
 
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -404,7 +404,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 31.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -414,9 +414,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -427,7 +427,7 @@ LaTeX Info: Redefining \nameref on input line 29.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \end{abstract}
+l.43 \end{abstract}
                     [1] (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -436,90 +436,45 @@ l.42 \end{abstract}
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 \newpage
+l.47 \newpage
               [1]
 <./images/unknown_M.jpg, id=50, 1064.47687pt x 943.27406pt>
 File: ./images/unknown_M.jpg Graphic file (type jpg)
 <use ./images/unknown_M.jpg>
-Package pdftex.def Info: ./images/unknown_M.jpg  used on input line 52.
+Package pdftex.def Info: ./images/unknown_M.jpg  used on input line 53.
 (pdftex.def)             Requested size: 96.31854pt x 85.35826pt.
 <./images/aluminium_sheet.jpg, id=51, 147.4308pt x 113.9457pt>
 File: ./images/aluminium_sheet.jpg Graphic file (type jpg)
 <use ./images/aluminium_sheet.jpg>
-Package pdftex.def Info: ./images/aluminium_sheet.jpg  used on input line 53.
+Package pdftex.def Info: ./images/aluminium_sheet.jpg  used on input line 54.
 (pdftex.def)             Requested size: 110.44234pt x 85.35826pt.
 <./images/zinc_sheet.jpg, id=52, 602.25pt x 602.25pt>
 File: ./images/zinc_sheet.jpg Graphic file (type jpg)
 <use ./images/zinc_sheet.jpg>
-Package pdftex.def Info: ./images/zinc_sheet.jpg  used on input line 54.
+Package pdftex.def Info: ./images/zinc_sheet.jpg  used on input line 55.
 (pdftex.def)             Requested size: 85.35284pt x 85.35826pt.
 <./images/unknown_X.jpg, id=53, 518.6878pt x 440.39531pt>
 File: ./images/unknown_X.jpg Graphic file (type jpg)
 <use ./images/unknown_X.jpg>
-Package pdftex.def Info: ./images/unknown_X.jpg  used on input line 62.
+Package pdftex.def Info: ./images/unknown_X.jpg  used on input line 63.
 (pdftex.def)             Requested size: 100.53033pt x 85.35826pt.
 <./images/boron.jpg, id=54, 663.98062pt x 566.36081pt>
 File: ./images/boron.jpg Graphic file (type jpg)
 <use ./images/boron.jpg>
-Package pdftex.def Info: ./images/boron.jpg  used on input line 63.
+Package pdftex.def Info: ./images/boron.jpg  used on input line 64.
 (pdftex.def)             Requested size: 100.06897pt x 85.35826pt.
 <./images/graphite.jpg, id=55, 267.399pt x 259.2084pt>
 File: ./images/graphite.jpg Graphic file (type jpg)
 <use ./images/graphite.jpg>
-Package pdftex.def Info: ./images/graphite.jpg  used on input line 64.
+Package pdftex.def Info: ./images/graphite.jpg  used on input line 65.
 (pdftex.def)             Requested size: 88.05424pt x 85.35826pt.
 <./images/iodine.jpg, id=56, 3061.4375pt x 2118.91624pt>
 File: ./images/iodine.jpg Graphic file (type jpg)
 <use ./images/iodine.jpg>
-Package pdftex.def Info: ./images/iodine.jpg  used on input line 65.
+Package pdftex.def Info: ./images/iodine.jpg  used on input line 66.
 (pdftex.def)             Requested size: 123.3242pt x 85.35826pt.
  [2 <./images/unknown_M.jpg> <./images/aluminium_sheet.jpg> <./images/zinc_sheet.jpg> <./images/unknown_X.jpg> <./images/boron.jpg> <./images/graphite.jpg> <./images/iodine.jpg>]
-./main.tex:125: Undefined control sequence.
-<argument> \mili 
-                 \liter 
-l.125  Beaker & \qty{100}{\mili\liter}
-                                       \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:125: Undefined control sequence.
-<argument> \mili 
-                 \liter 
-l.125  Beaker & \qty{100}{\mili\liter}
-                                       \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:126: Undefined control sequence.
-<argument> \mili 
-                 \liter 
-l.126  Grad. Cylinder & \qty{10}{\mili\liter}
-                                              \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:126: Undefined control sequence.
-<argument> \mili 
-                 \liter 
-l.126  Grad. Cylinder & \qty{10}{\mili\liter}
-                                              \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (68.05019pt too wide) in paragraph at lines 97--154
+Overfull \hbox (68.05019pt too wide) in paragraph at lines 98--155
 []  []  [] 
  []
 
@@ -527,106 +482,76 @@ Overfull \hbox (68.05019pt too wide) in paragraph at lines 97--154
 <./images/MX_initial.png, id=75, 2680.0125pt x 2009.5075pt>
 File: ./images/MX_initial.png Graphic file (type png)
 <use ./images/MX_initial.png>
-Package pdftex.def Info: ./images/MX_initial.png  used on input line 161.
+Package pdftex.def Info: ./images/MX_initial.png  used on input line 162.
 (pdftex.def)             Requested size: 113.807pt x 85.35826pt.
 <./images/MX_final.png, id=76, 685.05937pt x 701.62125pt>
 File: ./images/MX_final.png Graphic file (type png)
 <use ./images/MX_final.png>
-Package pdftex.def Info: ./images/MX_final.png  used on input line 169.
+Package pdftex.def Info: ./images/MX_final.png  used on input line 170.
 (pdftex.def)             Requested size: 83.34296pt x 85.35826pt.
  [4 <./images/MX_initial.png> <./images/MX_final.png (PNG copy)>]
 <./images/iodine_gas.png, id=85, 492.33937pt x 594.72188pt>
 File: ./images/iodine_gas.png Graphic file (type png)
 <use ./images/iodine_gas.png>
-Package pdftex.def Info: ./images/iodine_gas.png  used on input line 178.
+Package pdftex.def Info: ./images/iodine_gas.png  used on input line 182.
 (pdftex.def)             Requested size: 70.66241pt x 85.35826pt.
 <./images/iodine_crystals.png, id=87, 1300.86pt x 828.09375pt>
 File: ./images/iodine_crystals.png Graphic file (type png)
 <use ./images/iodine_crystals.png>
-Package pdftex.def Info: ./images/iodine_crystals.png  used on input line 179.
+Package pdftex.def Info: ./images/iodine_crystals.png  used on input line 183.
 (pdftex.def)             Requested size: 134.08336pt x 85.35826pt.
-<./images/activity_series.png, id=89, 1265.72874pt x 621.32124pt>
-File: ./images/activity_series.png Graphic file (type png)
-<use ./images/activity_series.png>
-Package pdftex.def Info: ./images/activity_series.png  used on input line 193.
-(pdftex.def)             Requested size: 231.83853pt x 113.81102pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./images/iodine_gas.png> <./images/iodine_crystals.png>]
-./main.tex:222: Missing $ inserted.
-<inserted text> 
-                $
-l.222 \end{table}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./main.tex:222: Display math should end with $$.
-<to be read again> 
-                   \tex_par:D 
-l.222 \end{table}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./main.tex:222: Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.222 \end{table}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./main.tex:222: Extra }, or forgotten \endgroup.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.222 \end{table}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+LaTeX Warning: File `starchtest.png' not found on input line 194.
 
 
-./main.tex:222: LaTeX Error: \begin{[} on input line 204 ended by \end{table}.
+./main.tex:194: Package pdftex.def Error: File `starchtest.png' not found: using draft setting.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.222 \end{table}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.194 ...cludegraphics[height=3cm]{starchtest.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[6 <./images/activity_series.png>] [7] (./main.bbl [8]
+
+LaTeX Warning: Reference `fig:starch' on page 5 undefined on input line 199.
+
+[5 <./images/iodine_gas.png> <./images/iodine_crystals.png>]
+<./images/activity_series.png, id=99, 1265.72874pt x 621.32124pt>
+File: ./images/activity_series.png Graphic file (type png)
+<use ./images/activity_series.png>
+Package pdftex.def Info: ./images/activity_series.png  used on input line 207.
+(pdftex.def)             Requested size: 231.83853pt x 113.81102pt.
+ [6 <./images/activity_series.png>] [7] [8] [9] (./main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [9] (./main.aux)
+) [10] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EBAC632FC74A0D2128E44B514C74731E;571.
  ) 
 Here is how much of TeX's memory you used:
- 15174 strings out of 478238
- 296249 string characters out of 5850456
- 614221 words of memory out of 5000000
- 33210 multiletter control sequences out of 15000+600000
- 475898 words of font info for 51 fonts, out of 8000000 for 9000
+ 15224 strings out of 478238
+ 297133 string characters out of 5850456
+ 615221 words of memory out of 5000000
+ 33242 multiletter control sequences out of 15000+600000
+ 476066 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,18n,79p,1952b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (11 pages, 23072986 bytes).
+ 74i,18n,79p,1937b,787s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (12 pages, 23088431 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

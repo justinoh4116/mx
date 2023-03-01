@@ -4,8 +4,8 @@
 \usepackage{siunitx}
 \usepackage[version=4]{mhchem}
 % \documentclass{memoir}
-\usepackage{chemfig}
-\renewcommand*\printatom[1]{\ensuremath{\mathsf{#1}}}
+% \usepackage{chemfig}
+% \renewcommand*\printatom[1]{\ensuremath{\mathsf{#1}}}
 
 % Language setting
 % Replace `english' with e.g. `spanish' to change the document language
@@ -21,9 +21,11 @@
 \graphicspath{ {./images} }
 \usepackage[colorlinks=false, allcolors=blue]{hyperref}
 
-\title{\Huge{Chemistry Honors \\ MX Lab Analysis}}
-\author{\huge{Oh, Justin} \and \huge{Ye, Nathan}}
-\date{\LARGE{\today}}
+\begin{singlespace}
+    \title{\Huge{Chemistry Honors \\ MX Lab Analysis}}
+    \author{\huge{Oh, Justin} \and \huge{Ye, Nathan}}
+    \date{\LARGE{\today}}
+\end{singlespace}
 
 
 \begin{document}
@@ -32,7 +34,6 @@
 % \tableofcontents
 
 \begin{abstract}
-
 In this lab, we are given two mystery elements labeled M and X and tasked to figure out the identity of the two through various tests. Different elements have unique properties that can tell us the identity of them. We can exploit these different properties through various tests that can clearly show the identity of some mystery element. Through this lab, we hope to gain and practice the knowledge we have learned. We will also be able to practice our lab skills and understanding of safety. Being able to tell similar-looking materials apart is also crucial, one wrong chemical used will ruin an experiment in the best case and expose people to deadly chemicals. Before we started running tests, we hypothesized that M is zinc and X is iodine though visual inspection and logical deduction. We factored in cost, safety, and compatibility just to name a few. By use of visual inspection and a conductivity test, we were able to determine that M was a metal. There were many methods we used to determine the identity of M: flame test, reactivity test, melting point. To determine the identity of X, we used visual inspection. Our results showed that M had a blueish white flame, a in the middle reactivity, and a very similar melting point to zinc. When heated up X started releasing purple vapors. From our testing, we can confidently state that M is zinc and X is iodine and our two guesses were both correct. 
 
 %\chemfig{I-Zn-I}
@@ -46,7 +47,7 @@ In this lab, we are given two mystery elements labeled M and X and tasked to fig
 \newpage
 
 \section{Background}
-We initially observe that \textbf{M} is made of small pieces cut from a sheet and appears to be metallic. We also see that it has a not particularly shiny, but untarnished appearance. By considering these visual properties, as well as the safety and price of materials, we narrow our initial guesses down to aluminum and zinc, two relatively common, safe metals that come in sheets. Between these two guesses, we choose \emph{zinc} as our first guess for \textbf{M}, as the appearance of \textbf{M} is very similar to zinc samples that we have encountered in previous labs.
+We initially observe that \textbf{M} is made of small pieces cut from a sheet and appears to be metallic. We also see that it has a not particularly shiny, but untarnished appearance. By considering these visual properties, as well as the safety and price of materials, we narrow our initial guesses down to aluminium and zinc, two relatively common, safe metals that come in sheets. Between these two guesses, we choose \emph{zinc} as our first guess for \textbf{M}, as the appearance of \textbf{M} is very similar to zinc samples that we have encountered in previous labs.
 \begin{figure}[h]
     \centering
     \includegraphics[height=3cm]{unknown_M.jpg}
@@ -77,7 +78,7 @@ Since zinc iodide is an ionic salt that is soluble in water, we would expect our
 Using dimensional analysis and the balanced chemical equation for our reaction, we can see that for every gram of iodine consumed, we will need 0.25790 grams of zinc. This ratio lets us know that for an equal mass of zinc and iodine, iodine will be the limiting reagent in the reaction, as less zinc is consumed per unit mass of iodine. Therefore, in a reaction with an equal mass of zinc and iodine, we would expect to find excess zinc remaining after the reaction.
 \begin{gather*}
     \ce{Zn + I2 -> ZnI2} \\[2ex]
-    \SI{1}{\gram\of{I}}\times\frac{\qty{1}{\mol\of{I}}}{\qty{126.90}{\gram\of{I}}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{2}{\mol\of{I}}}\times\frac{\qty{65.380}{\gram\of{Zn}}}{\qty{1}{\mol\of{Zn}}}=\qty{0.25760}{\gram\of{Zn}}
+    \qty{1}{\gram\of{I}}\times\frac{\qty{1}{\mol\of{I}}}{\qty{126.90}{\gram\of{I}}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{2}{\mol\of{I}}}\times\frac{\qty{65.380}{\gram\of{Zn}}}{\qty{1}{\mol\of{Zn}}}=\qty{0.25760}{\gram\of{Zn}}
 \end{gather*}
 
 % maybe combine 3 paragraphs into 1
@@ -101,12 +102,18 @@ We can first perform more general tests on \textbf{X} in order to eliminate grou
  Name & Concentration \\
  \hline
  \ce{AgNO3(aq)} & \qty{0.1}{\mol\per\liter} \\ 
- \ce{AgNO3(aq)} & \qty{0.1}{\mol\per\liter} \\ 
- \ce{AgNO3(aq)} & \qty{0.1}{\mol\per\liter} \\ 
- \ce{AgNO3(aq)} & \qty{0.1}{\mol\per\liter} \\ 
- \ce{HNO3(aq)} & \qty{0.1}{\mole\per\liter} \\ 
- \ce{CH3OH} & \qty{1234}{\percent} \\
- cell7 & cell8 \\ 
+ \ce{AlNO3(aq)} & \qty{0.1}{\mol\per\liter} \\ 
+ \ce{Ca(NO3)2(aq)} & \qty{0.1}{\mol\per\liter} \\ 
+ \ce{Fe(NO3)2(aq)} & \qty{0.1}{\mol\per\liter} \\ 
+ \ce{HNO3(aq)} & \qty{1}{\mole\per\liter} \\ 
+ \ce{KNO3(aq)} & \qty{0.1}{\mole\per\liter} \\ 
+ \ce{Mg(NO3)(aq)} & \qty{0.1}{\mole\per\liter} \\ 
+ \ce{Zn(NO3)2(aq)} & \qty{0.1}{\mol\per\liter} \\ 
+ \ce{SnCl2 in HCl} & \qty{0.1}{\mole\per\liter} \\ 
+ \ce{HCl(aq)} & \qty{1}{\mole\per\liter} \\ 
+ Starch & N/A \\
+ Deionized \ce{H2O} & N/A \\
+ \ce{CH3OH} & \qty{100}{\percent} \\
  \hline
 \end{tabular}
 \quad
@@ -114,12 +121,11 @@ We can first perform more general tests on \textbf{X} in order to eliminate grou
  \hline
  \multicolumn{2}{| c |}{Glassware} \\
  \hline
- Name & Concentration \\
+ Name & Volume \\
  \hline
- \ce{AgNO3(aq)} & \qty{1}{\mol\per\liter} \\ 
- \ce{HNO3(aq)} & \qty{0.1}{\mole\per\liter} \\ 
- \ce{CH3OH} & \qty{1234}{\percent} \\
- cell7 & cell8 \\ 
+ Beaker & \qty{100}{\milli\liter} \\
+ Grad. Cylinder & \qty{10}{\milli\liter} \\
+ Watch Glass & N/A \\
  \hline
 \end{tabular}
 \quad
@@ -127,12 +133,23 @@ We can first perform more general tests on \textbf{X} in order to eliminate grou
  \hline
  \multicolumn{2}{| c |}{Other Equipment} \\
  \hline
- Name & Concentration \\
+ Name & Something here idk \\
  \hline
- \ce{AgNO3(aq)} & \qty{1}{\mol\per\liter} \\ 
- \ce{HNO3(aq)} & \qty{0.1}{\mole\per\liter} \\ 
- \ce{CH3OH} & \qty{1234}{\percent} \\
- cell7 & cell8 \\ 
+ Multimeter \\
+ Conductivity tester \\
+ Digital calipers \\
+ Evaporating dish \\
+ Ring stand \\
+ Crucible \\
+ Bunsen burner \\
+ Hot plate with stirring \\
+ Magnetic stir bar \\
+ Parafilm \\
+ Matches \\
+ Coffee filter paper \\
+ Plastic funnel \\
+ Spot plate \\
+
  \hline
 \end{tabular}
 
@@ -155,7 +172,10 @@ Our first step was to visually observe \textbf{M} and \textbf{X} and hypothesize
     \label{fig:mx_comparison}
 \end{figure}
 
-In the directed portion of this lab, we weighed an equal amount of \textbf{M} and \textbf{X} and recorded how much we used: 0.512$\pm$0.001\unit{\gram\of{\mathbf{M}}} and 0.494$\pm$0.001\unit{\gram\of{\mathbf{X}}}. We then measured 8.60\unit{\milli\liter} of 'water' using a 10\unit{\milli\liter} graduated cylinder and poured it into a 100\unit{\milli\liter} beaker. \textbf{M} and \textbf{X} were then added to the beaker. We added a stir bar, covered the beaker with parafilm, and placed the beaker on the stir plate. We ran the stir plate over the course of the period, uncovered the beaker to remove the stir bar, covered it back up and let it sit over two days as we waited for a reaction to occur. Throughout this process, we recorded our observations. When \textbf{X} was added to the 'water' it quickly became a dark purplish shade, and after sitting for two days, the mixture had turned much lighter and had a yellow tint (Fig. \ref{fig:mx_comparison}). We then needed to filter off the liquid to get rid of impurities and unreacted solids then evaporate off the liquid. We set up a ring stand with a funnel that led to an evaporation dish. In the funnel a folded coffee filter was put. We then poured the contents of the beaker into the funnel and waited for it to finish draining. Once finished we set the evaporation dish aside and cleaned up the filtration setup. To speed up the evaporation process, we put the evaporation dish on the hot plate and turned it to a very low setting. Once all the liquid was gone and it started smoking a bit, we immediately took the dish off the hot plate and waited for it to cool down. We measured the mass of the dish with product to be 55.380$\pm$0.001\unit{\gram} and the dish by itself to be 55.903$\pm$0.001\unit{\gram}. This gives us a yield of 0.523$\pm$0.001\unit{\gram\of{\mathbf{{MX}}}}. We also observed this product to be a white powder.
+% mention second trial
+In the directed portion of this lab, we weighed an equal amount of \textbf{M} and \textbf{X} and recorded how much we used: 0.512$\pm$0.001\unit{\gram\of{\textbf{M}}} and 0.494$\pm$0.001\unit{\gram\of{\textbf{X}}}. We then measured 8.60\unit{\milli\liter} of 'water' using a 10\unit{\milli\liter} graduated cylinder and poured it into a 100\unit{\milli\liter} beaker. \textbf{M} and \textbf{X} were then added to the beaker. We added a stir bar, covered the beaker with parafilm, and placed the beaker on the stir plate. We ran the stir plate over the course of the period, uncovered the beaker to remove the stir bar, covered it back up and let it sit over two days as we waited for a reaction to occur. Throughout this process, we recorded our observations. When \textbf{X} was added to the 'water' it quickly became a dark purplish shade, and after sitting for two days, the mixture had turned much lighter and had a yellow tint (Fig. \ref{fig:mx_comparison}). We then needed to filter off the liquid to get rid of impurities and unreacted solids then evaporate off the liquid. We set up a ring stand with a funnel that led to an evaporation dish. In the funnel a folded coffee filter was put. We then poured the contents of the beaker into the funnel and waited for it to finish draining. Once finished we set the evaporation dish aside and cleaned up the filtration setup. To speed up the evaporation process, we put the evaporation dish on the hot plate and turned on the heating and very gentle stirring. Once all the liquid was gone, we immediately took the dish off the hot plate and waited for it to cool down. We measured the mass of the dish with product to be 55.380$\pm$0.001\unit{\gram} and the dish by itself to be 55.903$\pm$0.001\unit{\gram}. This gave us a yield of 0.523$\pm$0.001\unit{\gram\of{\textbf{{MX}}}}. We also observed this product to be a white powder.
+% mention second trial
+
 
 \begin{figure}[h]
     \centering
@@ -165,15 +185,22 @@ In the directed portion of this lab, we weighed an equal amount of \textbf{M} an
     \label{fig:heated_x}
 \end{figure}
 
-We found purple fumes coming off \textbf{X} and discoloration of the 'water' fascinating as it likely pointed to \textbf{X} being iodine. To further inspect \textbf{X} we wanted to see what would happen if we heated it up. We expected lots of purple vapor if \textbf{X} was indeed iodine. We took a few pieces of \textbf{X} and put them in a 100\unit{\milli\liter} beaker. We covered the beaker with a watch glass with some water on it and put it on the hot plate. As the beaker heated up, we observed more and more purple gas started to sublime from the solid \textbf{X}. At the top of the beaker, some of the gas deposited and formed spike-like crystals (Fig. \ref{fig:heated_x}).
+We found purple fumes coming off \textbf{X} and discoloration of the 'water' fascinating as it likely pointed to \textbf{X} being iodine. To further inspect \textbf{X} we wanted to see what would happen if we heated it up. We expected lots of purple vapor if \textbf{X} was indeed iodine. We took a few pieces of \textbf{X} and put them in a 100\unit{\milli\liter} beaker. We covered the beaker with a watch glass with some water on it and put it on the hot plate. As the beaker heated up, we observed more and more purple gas started to sublime from the solid \textbf{X}. At the top of the beaker, some of the gas deposited and formed spike-like crystals, also in a purple color (Fig. \ref{fig:heated_x}).
 % dont you not need to footnote after the 1st reference (on the 1st page)
 % true
 
-\bigskip
-Due to our suspicions of \textbf{X} being iodine we decided to use a starch test. To perform this test, we put some amount of starch in a spot plate, the amount doesn't matter. We then placed in one piece of \textbf{X} into the middle and added water to initialize the reaction. A dark indigo color started forming. Because paper also contains starch, we repeated the process on paper and also saw the same indigo color.
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=3cm]{starchtest.png}
+    \caption{\textbf{X} mixed with starch}
+    \label{fig:starch}
+\end{figure}
+
+Due to our suspicions of \textbf{X} being iodine we decided to use a starch test. To perform this test, we put some amount of starch in a spot plate, the amount doesn't matter. We then placed in one piece of \textbf{X} into the middle and added water to initialize the reaction. A dark indigo color started forming. Because paper also contains starch, we repeated the process on paper and also saw the same indigo color (Fig. \ref{fig:starch}).
 
 \bigskip
 One really simple test for \textbf{M} was to test its magnetic properties. Holding a magnet next to a piece of \textbf{M} lead to no visible movement.
+
 
 \begin{figure}[h]
     \centering
@@ -183,13 +210,32 @@ One really simple test for \textbf{M} was to test its magnetic properties. Holdi
 \end{figure}
 
 %will add molarity one i find them out
-We performed a reactivity test on \textbf{M} exactly like how we did in our activity series lab. We used ten different metallic salt solutions: silver nitrate, aluminum nitrate, calcium nitrate, copper nitrate, iron nitrate, dilute hydrochloric acid, potassium nitrate, magnesium nitrate, stannous chloride in dilute hydrochloric acid, and zinc nitrate. Each of these solutions was contained in a dropper bottle. We took out ten pieces of \textbf{M} and lay them out on a laminated sheet. Over each piece, we added two to three drops of the respective solution. We then observed if a reaction took place (Fig. \ref{fig:act_series}). We observed that silver nitrate reacted with \textbf{M} and turned black, copper nitrate reacted with \textbf{M} and also turned black, iron nitrate reacted with \textbf{M} and created a yellow crust, hydrochloric acid reacted with \textbf{M} and bubbles formed, and stannous chloride in hydrochloric acid reacted with \textbf{M} and bubbles formed. Everything else gave no reaction.
+% talk abt breaking oxide layer
+We performed a reactivity test on \textbf{M} exactly like how we did in our activity series lab. We used ten different metallic salt solutions: silver nitrate, aluminium nitrate, calcium nitrate, copper nitrate, iron nitrate, dilute hydrochloric acid, potassium nitrate, magnesium nitrate, stannous chloride in dilute hydrochloric acid, and zinc nitrate. Each of these solutions was contained in a dropper bottle. We took out ten pieces of \textbf{M} and lay them out on a laminated sheet. Over each piece, we added two to three drops of the respective solution. We then observed if a reaction took place (Fig. \ref{fig:act_series}). We observed that silver nitrate reacted with \textbf{M} and turned black, copper nitrate reacted with \textbf{M} and also turned black, iron nitrate reacted with \textbf{M} and created a yellow crust, hydrochloric acid reacted with \textbf{M} and bubbles formed, and stannous chloride in hydrochloric acid reacted with \textbf{M} and bubbles formed. Everything else gave no reaction.
 
-%
+\bigskip
 
+
+
+We performed a flame test on \textbf{M}. 
 
 \section{Gathered Data}
-
+\begin{tabular}{ |c|c| }
+    \hline
+    Measurement & Value \\
+    \hline
+    Mass of M reactant (Trial 1) &  \qty{0.512}{\gram}\\
+    Mass of X reactant (Trial 1) & \qty{0.494}{\gram} \\
+    Volume of 'water' (Trial 1) & \qty{8.60}{\milli\liter} \\
+    Mass of evaporation dish (Trial 1) & \qty{55.380}{\gram} \\
+    Mass of evaporation dish and product (Trial 1) & \qty{55.903}{\gram} \\
+    Mass of M reactant (Trial 2) & \qty{0.219}{\gram} \\
+    Mass of X reactant (Trial 2) & \qty{0.194}{\gram} \\
+    Volume of 'water' (Trial 2) & \qty{8.72}{\milli\liter} \\
+    Mass of evaporation dish (Trial 2) & \qty{44.904}{\gram} \\
+    Mass of evaporation dish and product (Trial 2) & \qty{45.113}{\gram} \\
+    \hline
+    \end{tabular}
 \section{Calculations}
 %stoichiometry for MX first trial
 % theoretical yield
@@ -198,6 +244,11 @@ We performed a reactivity test on \textbf{M} exactly like how we did in our acti
     \ce{Zn + I2 -> ZnI2} \\[2ex]
     \qty{0.512}{\gram\of{Zn}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{65.380}{\gram\of{Zn}}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}\times\frac{\qty{319.18}{\gram\of{\ce{ZnI2}}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}=\qty{2.50}{\gram\of{\ce{ZnI2}}} \\[2ex]
     \qty{0.494}{\gram\of{I}}\times\frac{\qty{1}{\mol\of{I}}}{\qty{126.90}{\gram\of{I}}}\times\frac{\qty{1}{\mol\of{\ce{ZnI2}}}}{\qty{2}{\mol\of{I}}}\times\frac{\qty{319.18}{\gram\of{\ce{ZnI2}}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}=\boxed{\qty{0.621}{\gram\of{\ce{ZnI2}}}} \\[2ex]
+    \begin{split}
+    m_{\text{product}} &= m_{\text{total}} - m_{\text{dish}} \\
+                       &= \qty{55.904}{\gram} - \qty{55.380}{\gram} \\
+                       &= \qty{0.523}{\gram} \text{ actual yield} \\
+    \end{split} \\
     \frac{\qty{0.523}{\gram}\mathrm{\ actual\ yield}}{\qty{0.621}{\gram}\mathrm{\ theoretical\ yield}}=\boxed{84.7\unit{\percent}\mathrm{\ yield}}
 \end{gather*}
 
@@ -211,16 +262,16 @@ We performed a reactivity test on \textbf{M} exactly like how we did in our acti
 %\end{gather*}
 %%%
 
-\begin{gather*}
-    m_\textbf{M} = \boxed{0.444 \pm 0.001  \,\si{\gram}} \\[2ex]
-    V_\textbf{M} = \Delta V = V_{\mathrm{final}} - V_{\mathrm{init}} \\[2ex]
-    V_\textbf{M} = 6.30 \,\si{\milli\liter} - 6.24  \,\si{\milli\liter} = 0.06 \,\si{\milli\liter}\\[2ex]
-    \delta V_\textbf{M} = \sqrt{\delta V_{\mathrm{final}}^2+\delta V_{\mathrm{init}}^2} = \sqrt{(\qty{0.1}{\milli\liter})^2+(\qty{0.1}{\milli\liter})^2} = \sqrt{\qty{0.02}{\milli\liter}^2} = \qty{0.14}{\milli\liter} \\[2ex]
-    V_\textbf{M} = \boxed{0.06 \pm 0.14 \,\si{\milli\liter}} \\[2ex]
-    \rho_\textbf{M} = \frac {m_\textbf{M}}{V_\textbf{M}} = \frac{\qty{0.444}{\gram}}{\qty{0.06}{\milli\liter}} = 7.4 \,\si{\frac{\gram}{{\centi\meter}^3}} \\[2ex] 
-    \frac{\delta \rho_\textbf{M}}{\rho_\textbf{M}} = \sqrt{\left(\frac{\delta m_\textbf{M}}{m_\textbf{M}} \right)^2 + \left(\frac{\delta V_\textbf{M}}{V_\textbf{M}} \right)^2} = \sqrt{\left(\frac{\qty{0.001}{\gram}}{\qty{0.444}{\gram}} \right)^2 + \left(\frac{\qty{0.14}{\milli\liter}}{\qty{0.06}{\milli\liter}} \right)^2} = \sqrt{\left(\frac{\delta m_\textbf{M}}{m_\textbf{M}} \right)^2 + \left(\frac{\delta V_\textbf{M}}{V_\textbf{M}} \right)^2}\\[2ex]
-    %help with sig figs :sob:
-\end{gather*}
+% \begin{gather*}
+%     m_\textbf{M} = \boxed{0.444 \pm 0.001  \,\qty{\gram}} \\[2ex]
+%     V_\textbf{M} = \Delta V = V_{\mathrm{final}} - V_{\mathrm{init}} \\[2ex]
+%     V_\textbf{M} = 6.30 \,\qty{\milli\liter} - 6.24  \,\qty{\milli\liter} = 0.06 \,\qty{\milli\liter}\\[2ex]
+%     \delta V_\textbf{M} = \sqrt{\delta V_{\mathrm{final}}^2+\delta V_{\mathrm{init}}^2} = \sqrt{(\qty{0.1}{\milli\liter})^2+(\qty{0.1}{\milli\liter})^2} = \sqrt{\qty{0.02}{\milli\liter}^2} = \qty{0.14}{\milli\liter} \\[2ex]
+%     V_\textbf{M} = \boxed{0.06 \pm 0.14 \,\qty{\milli\liter}} \\[2ex]
+%     \rho_\textbf{M} = \frac {m_\textbf{M}}{V_\textbf{M}} = \frac{\qty{0.444}{\gram}}{\qty{0.06}{\milli\liter}} = 7.4 \,\qty{\frac{\gram}{{\centi\meter}^3}} \\[2ex] 
+%     %\frac{\delta \rho_\textbf{M}}{\rho_\textbf{M}} = \sqrt{\left(\frac{\delta m_\textbf{M}}{m_\textbf{M}} \right)^2 + \left(\frac{\delta V_\textbf{M}}{V_\textbf{M}} \right)^2} = \sqrt{\left(\frac{\qty{0.001}{\gram}}{\qty{0.444}{\gram}} \right)^2 + \left(\frac{\qty{0.14}{\milli\liter}}{\qty{0.06}{\milli\liter}} \right)^2} = \sqrt{\left(\frac{\delta m_\textbf{M}}{m_\textbf{M}} \right)^2 + \left(\frac{\delta V_\textbf{M}}{V_\textbf{M}} \right)^2}\\[2ex]
+%     %help with sig figs :sob:
+% \end{gather*}
 
 % trial 2
 \large{Trial 2}
@@ -228,15 +279,33 @@ We performed a reactivity test on \textbf{M} exactly like how we did in our acti
     \ce{Zn + I2 -> ZnI2} \\[2ex]
     \qty{0.219}{\gram\of{Zn}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{65.380}{\gram\of{Zn}}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}\times\frac{\qty{319.18}{\gram\of{\ce{ZnI2}}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}=\qty{1.07}{\gram\of{\ce{ZnI2}}} \\[2ex]
     \qty{0.194}{\gram\of{I}}\times\frac{\qty{1}{\mol\of{I}}}{\qty{126.90}{\gram\of{I}}}\times\frac{\qty{1}{\mol\of{\ce{ZnI2}}}}{\qty{2}{\mol\of{I}}}\times\frac{\qty{319.18}{\gram\of{\ce{ZnI2}}}}{\qty{1}{\mol\of{\ce{ZnI2}}}}=\boxed{\qty{0.244}{\gram\of{\ce{ZnI2}}}} \\[2ex]
+    \begin{split}
+    m_{\text{product}} &= m_{\text{total}} - m_{\text{dish}} \\
+                       &= \qty{45.113}{\gram} - \qty{44.904}{\gram} \\
+                       &= \qty{}{\gram} \text{ actual yield} \\
+    \end{split} \\
     \frac{\qty{0.209}{\gram}\mathrm{\ actual\ yield}}{\qty{0.244}{\gram}\mathrm{\ theoretical\ yield}}=\boxed{85.7\unit{\percent}\mathrm{\ yield}} \\[2ex]
     \qty{0.194}{\gram\of{I}}\times\frac{\qty{1}{\mol\of{I}}}{\qty{126.90}{\gram\of{I}}}\times\frac{\qty{1}{\mol\of{Zn}}}{\qty{2}{\mol\of{I}}}\times\frac{\qty{65.380}{\gram\of{Zn}}}{\qty{1}{\mol\of{Zn}}}=\qty{0.0500}{\gram\of{Zn}}\text{ consumed} \\[2ex]
     \qty{0.219}{\gram\of{Zn}}-\qty{0.0500}{\gram\of{Zn}}\text{ consumed}=\qty{0.169}{\gram\of{Zn}}\text{ remaining} \\[2ex]
     \frac{\Delta m}{m}=\frac{\qty{0.169}{\gram\of{Zn}}\text{ theoretical remaining}-\qty{0.168}{\gram\of{Zn}}\text{ measured remaining}}{\qty{0.169}{\gram\of{Zn}}\text{ theoretical remaining}}=\qty{0.6}{\percent}\text{ error}
 \end{gather*}
 
+\section{Analysis}
+
+% talk abt zinc oxide layer
+The evidence we have to support the claim that the identity of the unknown element M is zinc falls into three categories. The first of these categories are the general properties of M. We first observed that M was made of small pieces cut from a larger sheet of metal, and was untarnished, but not extremely shiny. We next observed that M was very conductive, with only \qty{0.612}{\ohm} of resistance across \qty{3.00}{\milli\meter} of its surface. Furthermore, we found that M was malleable, and was able to be formed slightly with our hands. M's appearance and properties of conductivity and malleability are all properties of metals. Since M has many of the properties intrinsic to metals, we conclude that M is a metallic element. 
+
+The next piece of evidence that supports M's identity as zinc is its reactivity. By performing reactivity tests against other metals, we can determine M's reactivity relative to other known metals. We found that M was more reactive than silver, copper, iron, tin, and hydrogen. We found that it was unable to replace calcium, potassium, magnesium, aluminium, and zinc. This exactly matches where zinc lies on the activity series, above the elements that M was able to replace, and below those it could not. However, since we did not have a chromium nitrate solution, and chromium is another metal that would match our reactivity results, we are unable to confidently verify M's identity as zinc from the activity series alone. However, in our next test, we are able to eliminate chromium as possibility for M's identity.
+
+The final piece of evidence that allows us to confidently state M's identity as zinc is a flame color test. By reacting M and X, we were able to produce an ionic compound with M as the cation.\footnote{Verification of this fact is provided in the analysis of X's identity}When a metal ion is heated in a flame test, its electrons rise and fall between orbitial energy levels and emit a characteristic spectrum of light. Since all elements have unique energy levels, they have unique emission spectra, meaning the emitted spectrum of light from a flame test can be used to identify the element. Following our synthesis of MX with M as a cation, we dissolved the powder in methanol, and ignited it. We observed a pale, light blue flame. As a control, we also ignited pure methanol and observed a colorless flame. The two possibilities for M's identity that we obtained from our reactivity testing, zinc and chromium, have pale blue and silver white flames respectively.\footnote{insert citation} Since the observed flame color of our unknown is very different from that of chromium's, we are able to eliminate chromium as a possibility for our unknown's identity. However, there are a group of elements that have a flame color similar to our unknown. These include: arsenic, lead, tin, and zinc. However, using our initial observations as well as the reactivity of M, we are able to eliminate all of these possibilities, save for zinc. Therefore, by using evidence from all of our testing on M, we are able to confidently state the identity of M as zinc.
+
+\bigskip
+Similarly to M, we began to identify X by recording its general properties. We observed that iodine was black in color. This allowed us to come up with an initial pool of guesses for X including: beryllium, boron, carbon, phsphorous, arsenic, selenium, and iodine. As described in the background section, We first quantative test that we perfomed on X was conductivity. We measured the resistance across \qty{3.00}{\mm} of X's surface to be \qty{25.25}{\mega\ohm}. Since all metals are highly conductive due to their free flowing electrons, we can conclude that X is not a metal due to its very high resistance. From our initial pool of guesses based on color, this allows us to eliminate beryllium, arsenic, and selenium from our possibilities. 
+
+Our method of verification for X's identity stems from a very distinct characteristic of iodine: it sublimes\footnote{Following the definition where solid transitions directly to gas, not necessarily occurring below the triple point} into a vivid purple vapor when heated moderately at atmospheric pressure. We were able to very clearly observe this characteristic in X by heating it in a beaker. We observed that purple vapors quickly began to rise off of the X pieces and all of the solid X soon sublimed. Furthermore, we observed that the X vapors formed crystals when they reached the watch glass covering the beaker. This property is observed in iodine due to its weak intermolecular forces. Since the forces holding iodine's structure together are so weak, the iodine atoms are able to remove themselves from the larger structure and rise off as a gas at room temperature. 
+
 \bibliographystyle{alpha}
 \bibliography{sample}
-
 
 % 
 % \setcrambond{2pt}{}{}
@@ -254,3 +323,4 @@ We performed a reactivity test on \textbf{M} exactly like how we did in our acti
 %     --{\color{blue}N}=-)}
 % 
 \end{document}
+
