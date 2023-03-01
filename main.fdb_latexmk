@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1677617070 "main.aux" "main.bbl" "main" 1677617078
+["bibtex main"] 1677617070 "main.aux" "main.bbl" "main" 1677649813
   "/usr/share/texmf-dist/bibtex/bst/base/alpha.bst" 1650183167 23907 a5f93555796fb564b924339521f10a7c ""
-  "main.aux" 1677617077 2809 5e0bae6d4f867aeb35d74de50396830c "pdflatex"
+  "main.aux" 1677649812 2809 5e0bae6d4f867aeb35d74de50396830c "pdflatex"
   "sample.bib" 1677564416 244 0810be99547e6f3295f454437e22fee4 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1677617070 "main.tex" "main.pdf" "main" 1677617078
+["pdflatex"] 1677649807 "main.tex" "main.pdf" "main" 1677649813
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1650183167 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1650183167 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -14,6 +14,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1650183167 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm" 1650183167 1332 f817c21a1ba54560425663374f1b651a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1650183167 1336 3125ccb448c1a09074e3aa4a9832f130 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1650183167 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1650183167 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1650183167 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1650183167 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -29,10 +30,9 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1650183167 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1650183167 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb" 1650183167 32007 e8fa0078355f39467039935974716569 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1650183167 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1650183167 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1650183167 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1650183167 35752 024fb6c41858982481f6968b5fc26508 ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1650183167 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1650183167 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1650183167 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1650183167 32734 69e00a6b65cedb993666e42eedb3d48f ""
@@ -121,11 +121,11 @@
   "images/unknown_M.jpg" 1677564416 694414 56135f6b4e9269e5030532e7f00cfb29 ""
   "images/unknown_X.jpg" 1677564416 323366 df75b42caf5249da86b5cc0104b36637 ""
   "images/zinc_sheet.jpg" 1677564416 38981 81e271c6bfc2e7e99018d0484713b035 ""
-  "main.aux" 1677617077 2809 5e0bae6d4f867aeb35d74de50396830c "pdflatex"
+  "main.aux" 1677649812 2809 5e0bae6d4f867aeb35d74de50396830c "pdflatex"
   "main.bbl" 1677617070 49 0eba253fc001332e731e8aba3f23127b "bibtex main"
-  "main.out" 1677617077 571 ebac632fc74a0d2128e44b514c74731e "pdflatex"
-  "main.tex" 1677617060 23696 62215016b1a935ae92e1cdc8252c9284 ""
-  "main.toc" 1677617077 428 82b6d94da6bd391c90faf25fedcec3f1 "pdflatex"
+  "main.out" 1677649812 571 ebac632fc74a0d2128e44b514c74731e "pdflatex"
+  "main.tex" 1677649805 26361 0b8dcebdf5b0f6d0686126cdcb7c83e1 ""
+  "main.toc" 1677649812 428 82b6d94da6bd391c90faf25fedcec3f1 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
